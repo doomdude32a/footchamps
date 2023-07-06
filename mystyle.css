@@ -1,0 +1,230 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202729;
+  color: #fff;
+}
+
+footer {
+  background-color: #16202A;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header-Stile */
+header {
+  background-color: #2B3336;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Hero-Bereich-Stile */
+.hero {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#otherleagues {
+  text-align: center;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #fff;
+  padding-left: 175px;
+  margin-left: -675px;
+  
+}
+
+#otherleagues .info-text {
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+}
+
+#otherleagues .info-content {
+  display: none;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2B3336;
+}
+
+#otherleagues .info-content p {
+  margin-bottom: 1px;
+}
+
+#otherleagues .info-text:focus + .info-content {
+  display: block;
+}
+
+.cta-image {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* Ligen-Stile */
+.leagues {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.league {
+  margin: 10px;
+  text-align: center;
+  flex-basis: 50px;
+}
+
+.league img {
+  width: 700px;
+  height: auto;
+  margin-bottom: 10px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.league a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* League Window */
+.league-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.league-window:target {
+  display: flex;
+}
+
+.league-window h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.league-window p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.league-window a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #2B3336;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Footer-Stile */
+footer {
+  background-color: #16202A;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.info-text {
+  text-align: center;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: #fff;
+  margin-top: 2opx;
+  padding-left: 430px;
+  margin-left: 175px;
+  
+}
+
+
+
+.info-content {
+  display: none;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2B3336;
+}
+
+.info-content p {
+  margin-bottom: 10px;
+}
+
+.info-text:focus + .info-content {
+  display: block;
+}
